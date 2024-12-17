@@ -1,0 +1,26 @@
+.form-of-particular-id {
+    background-color: cyan;
+    width: 30%;
+    margin-left: 350px;
+    margin-top: 150px;
+    color: red;
+    border-radius: 10px;
+}
+
+.margin-left-of-book {
+    margin-left: 380px;
+}
+
+@media (max-width:768px){
+    .margin-left-of-book {
+        margin-left: 100px;
+    }
+    .form-of-particular-id {
+        background-color: cyan;
+        width: 50%;
+        margin-left: 100px;
+        margin-top: 150px;
+        color: red;
+        border-radius: 10px;
+    }
+}

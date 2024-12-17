@@ -1,0 +1,71 @@
+.flexing-of-nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-decoration-of-nav-items {
+    text-decoration: none;
+    color: black;
+}
+
+.current-location {
+    text-decoration: none;
+    color: blue;
+}
+table, th, td {
+    border:1px solid black;
+  }
+.width-of-table {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.edit-button-styling {
+    background-color: blueviolet;
+    color: #ffffff;
+    text-decoration: none;
+    border-width: 0px;
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.delete-button-styling{
+    background-color: red;
+    margin-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-width: 0px;
+    height: 32px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.view-details-buttton {
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: yellow;
+    color: blue;
+    border-width: 0px;
+    height: 32px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.alignment-of-list-of-books-heading {
+    text-align: center;
+}
+
+.margin-left-of-pagination {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width:768px){
+    .flexing-of-td-tag {
+        display: flex;
+       
+    }
+}
