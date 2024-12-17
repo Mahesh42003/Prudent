@@ -46,6 +46,7 @@ const Home=() => {
    
   const clickingOnButton=(Event) => {
     const offset=Math.ceil((Event.target.textContent * 2)-2)
+     settingLimit(2)
     settingOffset(offset)
   }
    
